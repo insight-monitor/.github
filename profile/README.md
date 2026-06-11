@@ -19,9 +19,9 @@ A system that replaces static classification with probabilistic, evidence-based 
 
 And produces structured behavioral intelligence:
 
-- Per-activity intent hypotheses with [[05-INFERENCE-FRAMEWORK/Confidence-Model|confidence scoring]]
+- Per-activity intent hypotheses
 - Task chain reconstruction and context-switch detection
-- Efficiency estimates relative to [[03-CORE-CONCEPT/Glossary|defined baselines]]
+- Efficiency estimates relative
 - Evidence-traceable distraction and focus classification
 - Detection of low-interaction periods that may indicate offline cognitive work, meetings, or idle time — flagged with explicit uncertainty
 
@@ -36,8 +36,8 @@ We estimate probable intent — we do not read minds. We detect likely progressi
 
 ## Data Approach
 
-- **Collection**: comprehensive across observable signal layers. Each signal type is justified against a specific inference need — not collected indiscriminately. [[04-DATA-MODEL/Data-Taxonomy]]
-- **Processing**: [[06-PRIVACY/Data-Processing|hybrid architecture]]. Sensitive redaction and local inference run on-device. Aggregated, sanitized outputs may sync to cloud for cross-user analysis and model improvement.
+- **Collection**: comprehensive across observable signal layers. Each signal type is justified against a specific inference need — not collected indiscriminately.
+- **Processing**: Sensitive redaction and local inference run on-device. Aggregated, sanitized outputs may sync to cloud for cross-user analysis and model improvement.
 - **Transparency**: collection scope is explicit, configurable, and disclosed to the user. The system does not capture what it cannot justify.
 
 ## Product Model
@@ -52,4 +52,4 @@ Both are first-class products. The pipeline is designed to be embedded into exte
 
 The system is limited to what the monitored device can observe. Multi-device work, analog tools (notebooks, whiteboards), meetings, conversations, and purely cognitive activity are partially visible at best.
 
-See (our documentation)[https://github.com/insight-monitor/insight-monitor-docs/] to know more about us.
+See [our documentation](https://github.com/insight-monitor/insight-monitor-docs/) to know more about us.
