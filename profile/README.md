@@ -7,7 +7,7 @@
 <!-- ===================================================== -->
 
 <p align="center">
-  <img src="./assets/banner-placeholder.png" alt="Insight Monitor Banner" width="100%">
+  <img src="./assets/insight_monitor_logo.svg" alt="Insight Monitor Banner" width="100%">
 </p>
 
 <h1 align="center">Insight Monitor</h1>
